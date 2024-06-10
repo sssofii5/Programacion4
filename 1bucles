@@ -1,0 +1,4 @@
+ ##ejercicio 1 bucles palabra
+a = int(input('ingrese una palabra'))
+for i in range (1,10)
+print(palabra)
