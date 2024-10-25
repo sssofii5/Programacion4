@@ -1,0 +1,19 @@
+import radmon 
+
+vidaA =100
+AtaqueA=25
+VidaB=100
+AtaqueB=25
+
+
+inicia=random,randrange(1,10,1)
+while VidaA > 0 and VidaB > 0:  
+    if inicia >=5:
+    #Ataque de A hacia b
+    VidaB -= AtaqueA            
+    else:
+    #Ataque de B hacia A
+    vidaA -= AtaqueB
+    print(f"El jugador B ataco a A" "/n" f" a el jugador A le restan {vidaA}")
+    
+    inicia = random,randrange(1,10,1)

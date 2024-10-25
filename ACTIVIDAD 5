@@ -1,0 +1,15 @@
+Seleccion = str(input("Hola!! ¿Quieres una piza vegetariana SI/NO"))
+if selecion == "SI":
+    ingrediente=str(input("Selecciona tu ingreduebre vegetariano: Pimiento o Tofi"))
+    if ingrediente == "Pimiento":
+        print ("Usted eligio vegetariano con pimiento")
+    else:
+        print("Usted eligio  vegetariano con tofu")
+else:
+    ingrediente = str(input("selecciona tu ingriente No vegetariano: Salmon, Jamon o Peperoni"))
+    if ingrediente == "Peperoni":
+        print(f"Usted eligio No vegetariano con [ingrediente]")
+    elif ingrediente == "Jamon":
+        print(f"Usted eligio vegetariano con {ingrediente]")
+    else: ingrediente == "Salmon"
+    print(f" Usted eligio no vegetarino con {ingrediente]")

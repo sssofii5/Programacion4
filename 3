@@ -1,0 +1,11 @@
+##act 3
+PIN_SECRETO = "1234" # PIN correcto 
+intentos_restamtes = 3 #Numero de intentos permitidos.
+
+intentos_simulados = ("1111,"4321","1234") # El tercer intento es el correcto
+
+for pin_ingresado in intentos_simulados:
+    print(F"Intentando con PIN: {pin_ingresado}")
+    if pin_ingresado == PIN_SECRETO:
+        print("Loing correcto")
+        

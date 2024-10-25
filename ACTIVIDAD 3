@@ -1,0 +1,19 @@
+#act 3 parte1
+
+ci=100000
+interes = 0.02
+ciclo = 10
+
+icompuesto = ci *(1+interes)**ciclo
+print(f"El valor final, con un capital de {ci}, un interes de {interes} con la cantidad" )
+print(icompuesto)
+
+
+#act 3 parte2
+
+Ci = int(input('ingresar el valor inicial: '))
+i = float(input('Indicar el valor de interes(En deccimales): ')) 
+n = int(input('Indicar cantidad de ciclo/años: '))
+Cf = Ci *(1 + i)**n
+print(f"El valor final, con un capital de [Ci], un interes de [i] con la cantidad de años [n] es ")
+print[Cf]
